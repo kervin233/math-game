@@ -5,7 +5,7 @@ const generateButton = document.getElementById("generateBtn");
 function setDifficulty(difficulty) {
     clickButton = difficulty;
     if (clickButton === "easy") {
-        document.getElementById("labelDifficulty").textContent = "Pick a Number Between 1 To 10"
+        document.getElementById("labelDifficulty").textContent = "Pick a Number Between 1 To 25"
         document.getElementById("difficultySpan").textContent = "Difficulty Was Set To EASY"
     } else if (clickButton === "medium") {
         document.getElementById("labelDifficulty").textContent = "Pick a Number Between 1 To 50"
