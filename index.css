@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+#main{
+    background-image: url(https://external-preview.redd.it/EI7U4SmOi43K1dZt0TkQ73gynoNzuhcxuUxbYII30Hk.png?format=pjpg&auto=webp&s=3b9d06aba8e2de01cebc3b49afd4256a55c90ce6);
+    background-repeat: none;
+    background-size:   cover;
+    width: 100%;
+    height: 100vh;
+}
+#play{
+    background-image: url(https://img.freepik.com/free-vector/gradient-numerology-background_23-2150066807.jpg);
+    background-repeat: none;
+    background-size:   cover;
+    width: 100%;
+    height: 100vh;
+}#settings{
+    background-image: url(https://thumbs.dreamstime.com/b/settings-icon-abstract-blue-background-illustration-digital-texture-design-concept-dark-grunge-elegant-paint-modern-162449292.jpg);
+    background-repeat: none;
+    background-size:   cover;
+    width: 100%;
+    height: 100vh;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.h1{
+    font-size: 180px;
+    color: white;
+}
+.mainbutton{
+    width: 300px;
+    height: 80px;
+    font-size: 60px;
+}
+#difficultySpan{
+    color: white;
+}
+.settingsStyle{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 50px;
+    align-items: center;
+    margin:  0% 0% 5% 10%;
+    font-size: 30px;
+    
+}
+
+.playStyle{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 50px;
+    align-items: center;
+    margin:  auto;
+    margin-bottom: 2%;
+    font-size: 30px;
+    
+}

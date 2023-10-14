@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random_Number</title>
+  <link href="index.css" rel="stylesheet">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="hide show" id="main">
+    <br>
+    <span class="h1">WELLCOME</span>
+    <br>
+    <br>
+    <button class="mainbutton" onclick="showPlay()">Play</button>
+    <br>
+    <br>
+    <button class="mainbutton" onclick="showSettings()">Settings</button>
+  </div>
+  <div class="hide" id="play">
+  <label class="playStyle" id="labelDifficulty" for="numberInput">PLease Pick a Difficulty</label>
+  <input class="playStyle" id="numberInput" name="numberInput" type="number">
+  <span class="playStyle" id="span"></span>
+  <button class="playStyle" id="checkAnswer" onclick="checkAnswer()">Submit</button>
+  <button class="playStyle" id="generateBtn" onclick="generateRandomNumber()">Generate</button>
+  <button class="playStyle" onclick="showSettings()">Set Difficulty</button>
+  <button class="playStyle" onclick="showMain()">Back To Main Menu</button>
+  </div>
+  <div class="hide " id="settings">
+    <br>
+    <span class="settingsStyle" id="difficultySpan">Please Select A Difficulty</span>
+    <button class="settingsStyle" id="easyBtn" onclick="setDifficulty('easy')">Easy</button>
+    <button class="settingsStyle" id="mediumBtn" onclick="setDifficulty('medium')">Medium</button>
+    <button class="settingsStyle" id="hardBtn" onclick="setDifficulty('hard')">Hard</button>
+    <button class="settingsStyle" onclick="showMain()">Main Menu</button>
+    <button class="settingsStyle" onclick="showPlay()">Play</button>
+    </div>
+</body>
+</html>
